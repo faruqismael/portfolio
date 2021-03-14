@@ -1,0 +1,34 @@
+.about{
+    padding: 100px;
+    text-align: center;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.about__about{
+    text-align: left;
+    padding-left: 30px;
+}
+
+.about__top{
+    width: 50%;
+    font-weight: 700;
+}
+
+.about__bio{
+    font-weight: 200;
+    padding-top: 20px;
+    width: 80%;
+}
+
+.about__bio div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.about__connect a{
+    padding: 20px;
+    font-size: 30px;
+}
+

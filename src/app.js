@@ -5,6 +5,7 @@ import './App.css'
 // compoponents
 import Header from './Header'
 import Front from './Front'
+import About from './About'
 import Footer from './Footer'
 
 const app = () => {
@@ -12,6 +13,7 @@ const app = () => {
         <div>
             <Header />
             <Front />
+            <About />
             <Footer />
         </div>
     );
