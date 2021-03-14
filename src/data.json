@@ -1,0 +1,35 @@
+{
+    "roles": [
+        "front-end developer",
+        "coder",
+        "software engineer",
+        "programmer"
+    ],
+    "projects": [
+        {
+            "image": "",
+            "title": "covid-19 tracker",
+            "link": "url"
+        },
+        {
+            "image": "",
+            "title": "covid-19 tracker",
+            "link": "url"
+        },
+        {
+            "image": "",
+            "title": "covid-19 ",
+            "link": "url"
+        },
+        {
+            "image": "",
+            "title": "covid-19 tracker",
+            "link": "url"
+        },
+        {
+            "image": "",
+            "title": "covid-19 tracker",
+            "link": "url"
+        }
+    ]
+}

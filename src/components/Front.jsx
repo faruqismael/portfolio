@@ -1,20 +1,14 @@
 import React from 'react';
 import '../styles/Front.css'
-
+import data from '../data.json'
 // font-awesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCode } from "@fortawesome/free-solid-svg-icons"
 
 // iterating over roles
-let roles = [
-    'front-end developer',
-    'coder',
-    'software engineer',
-    'programmer'
-]
 
 const iterateRoles = (index) => {
-    return roles[Math.floor(Math.random() * roles.length)]
+    return data.roles[Math.floor(Math.random() * data.roles.length)]
 }
 
 // let random = ;
