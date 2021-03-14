@@ -1,12 +1,13 @@
 import React from 'react';
 
 // style
-import './App.css'
+import './styles/App.css'
 // compoponents
-import Header from './Header'
-import Front from './Front'
-import About from './About'
-import Footer from './Footer'
+import Header from './components/Header'
+import Front from './components/Front'
+import About from './components/About'
+import Pojects from './components/Projects'
+import Footer from './components/Footer'
 
 const app = () => {
     return (
@@ -14,6 +15,7 @@ const app = () => {
             <Header />
             <Front />
             <About />
+            <Pojects />
             <Footer />
         </div>
     );

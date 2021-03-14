@@ -1,10 +1,9 @@
 import React from 'react';
-import './About.css'
+import '../styles/About.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faGithub, faTelegram, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
-const image = "./profile.png"
 
 const About = () => {
     return (
