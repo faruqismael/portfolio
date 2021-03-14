@@ -9,6 +9,7 @@ const About = () => {
     return (
         <div className="about">
             <div className="about__image">
+                <h2>hhhh</h2>
                 <img src="https://avatars.githubusercontent.com/u/60698026?s=460&u=cb12546a231d3bc0a245c9e3c43c7b2f6934bd7a&v=4" alt="" />
             </div>
             <div className="about__about">

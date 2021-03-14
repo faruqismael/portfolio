@@ -1,3 +1,52 @@
+
 .project h2{
     text-align: center;
+}
+
+.project h2 i{
+    margin-left: 20px;
+}
+
+.project__cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 30px;
+}
+
+.project__card{
+    border: 2px solid rgb(61, 141, 23);
+    margin: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.project__card:hover{
+    transform: scale(1.01);
+    translate: all .5s;
+}
+@media (max-width:740px){
+    .project{
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    .project__cards{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+.project__image{
+    height: 400px;
+    object-fit:fill;
+}
+
+.project__title{
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    background: rgb(61, 141, 23);
+    padding: 30px;
+    font-weight: 900;
+    color: white;
+    letter-spacing: 2px;
 }
