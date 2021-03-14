@@ -1,0 +1,28 @@
+.front__bg{
+    /* background: url('./bg.jpg'); */
+    background: rgb(3, 3, 3);
+    background-position: center;
+    background-size: cover;
+    height: 740px ;
+    object-fit: cover;
+}
+
+.front__info{
+    font-size: 40px;
+    color: white;
+    position: relative;
+    top: 30%;
+    padding-left: 40%;
+}
+
+.front__name{
+    font-weight: 900;
+}
+
+.front__role{
+    font-weight:100;
+    font-size: 18px;
+    letter-spacing: 4px;
+    color: rgb(233, 34, 20);
+    text-transform: uppercase;
+}
