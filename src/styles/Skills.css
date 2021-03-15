@@ -1,0 +1,17 @@
+.skills{
+    text-align: center;
+    padding: 5%;
+    margin-top: 10%;
+    background: rgb(105, 105, 207);
+    color: white;
+}
+
+.skills__list{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    padding: 20px;
+}
+
+.skills__single{
+    padding-bottom: 10%;
+}

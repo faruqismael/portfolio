@@ -3,3 +3,8 @@
     padding: 0;
     font-family: sans-serif;
 }
+@media (min-width:640px){
+    .body{
+        width: 95vh;
+    }
+}

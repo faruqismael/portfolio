@@ -31,5 +31,35 @@
             "title": "covid-19 tracker",
             "link": "url"
         }
+    ],
+    "skills": [
+        {
+            "skill": "HTML5",
+            "icon": "faHtml5"
+        },
+        {
+            "skill": "CSS",
+            "icon": "faCss3"
+        },
+        {
+            "skill": "HTML5",
+            "icon": "faHtml5"
+        },
+        {
+            "skill": "HTML5",
+            "icon": "faHtml5"
+        },
+        {
+            "skill": "HTML5",
+            "icon": "faHtml5"
+        },
+        {
+            "skill": "HTML5",
+            "icon": "faHtml5"
+        },
+        {
+            "skill": "HTML5",
+            "icon": "faHtml5"
+        }
     ]
 }

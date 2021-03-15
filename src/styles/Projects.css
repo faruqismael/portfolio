@@ -14,7 +14,7 @@
 }
 
 .project__card{
-    border: 2px solid rgb(61, 141, 23);
+    border: 1px solid blue;
     margin: 10px;
     position: relative;
 }
@@ -40,7 +40,7 @@
     position: relative;
     bottom: 0;
     text-align: center;
-    background: rgb(61, 141, 23);
+    background: blue;
     padding: 30px;
     font-weight: 900;
     color: white;
