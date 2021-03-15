@@ -1,0 +1,75 @@
+.contact{
+    padding: 10%;
+    text-align: center;
+}
+
+.contact h1{
+    color: blue;
+}
+
+.contact__form{
+    background-color: blue;
+    /* padding: 20px; */
+    box-shadow: .2rem .2rem 2rem .92rem black;
+    margin-top: 5%;
+}
+
+.contact__form form{
+    padding: 20px;
+}
+
+.contact__form h3{
+    text-transform: uppercase;
+    background: white;
+    color:blue;
+    border-bottom: 2px solid white;
+}
+
+.contact__row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width:640px){
+    .contact__row{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+.form{
+    background: none;
+    color: white;
+    border: none;
+    padding: 20px;
+    width: 50%;
+    margin-top: 10px;
+    outline: none;
+    font-size: 15px;
+}
+
+.form::placeholder{
+    color: white;
+}
+.form:focus{
+    border-bottom: 2px solid white;
+    transition: .2s ease-out;
+}
+
+.contact__submit{
+    background: none;
+    padding: 10px;
+    border: 2px solid white;
+    color: white;
+    margin-top: 2%;
+    width: 50%;
+    font-size: 15px;
+}
+
+.contact__submit:hover{
+    color: blue;
+    background: white;
+    cursor: pointer;
+    transition: .5s;
+    
+}
