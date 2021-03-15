@@ -1,8 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import "../styles/Projects.css";
-import { } from '@fortawesome/react-fontawesome'
-import { faListAlt } from '@fortawesome/free-solid-svg-icons';
+import { faLink, faListAlt } from '@fortawesome/free-solid-svg-icons';
 import data from "../data.json"
 
 const Projects = () => {
@@ -16,7 +15,10 @@ const Projects = () => {
                         <div className="project__card">
                             <div className="project__image"></div>
                             <div className="project__title">
-                                {project.title}
+                                <a href={project.link} className="project__link">
+                                    {project.title.toUpperCase()} <FontAwesomeIcon icon={faLink} />
+
+                                </a>
                             </div>
                         </div>
                     )
