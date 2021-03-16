@@ -14,7 +14,7 @@ const Contact = () => {
                     </form>
                 </div>
                 <div className="contact__map">
-
+                    <h2>location </h2>
                 </div>
             </div>
         </div>
