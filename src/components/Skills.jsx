@@ -13,7 +13,11 @@ const Skills = () => {
                         skill => {
                             return (
                                 <div className="skills__single">
-                                    < FontAwesomeIcon icon={skill.icon} style={{ fontSize: "150px" }} />
+                                    {/*  */}
+                                    {skill.skill === "Typescript" ?
+                                        <img src={skill.icon} alt={skill.skill} style={{ backgroundColor: "white" }} width={100} className="skills__icon" /> :
+                                        <img src={skill.icon} alt={skill.skill} width={100} className="skills__icon" />}
+
                                     <h4>{skill.skill}</h4>
                                 </div>
                             )
@@ -21,9 +25,19 @@ const Skills = () => {
                     )}
                 </div>
             </div>
-            {/* <div className="skills__tools">
+            <div className="skills__tools">
                 <h2>Tools</h2>
-            </div> */}
+                <div className="skills__list">
+                    {data.tools.map(tool => {
+                        return (
+                            <div className="skills__single">
+                                <img src={tool.icon} alt={tool.skill} width={100} className="skills__icon" />
+                                <h4>{tool.skill}</h4>
+                            </div>
+                        )
+                    })}
+                </div>
+            </div>
         </div>
     );
 }

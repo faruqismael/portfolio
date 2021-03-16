@@ -8,10 +8,34 @@
 
 .skills__list{
     display: grid;
-    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
     padding: 20px;
 }
 
 .skills__single{
     padding-bottom: 10%;
+}
+
+@media (max-width:640px){
+    .skills__list{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .skills__icon{
+        font-size: 75px;
+    }
+}
+
+@media (min-width:740px){
+    .skills__list{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .skills__icon{
+        font-size: 100px;
+    }
+}
+
+@media (min-width:790px){
+    .skills__list{
+        grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    }
 }
