@@ -7,11 +7,23 @@ import { faCode } from "@fortawesome/free-solid-svg-icons"
 
 // iterating over roles
 
-const iterateRoles = (index) => {
+let iterateRoles = () => {
     return data.roles[Math.floor(Math.random() * data.roles.length)]
 }
 
-// let random = ;
+let lucky = iterateRoles();
+setInterval(() => {
+    lucky = iterateRoles()
+    lucky.toString();
+    let luckyArr = [];
+    for (let i = 0; i < lucky.length; i++) {
+        luckyArr.push(lucky[i])
+    }
+
+    let luckyString = '';
+    luckyArr.map(arr => luckyString += arr);
+    document.getElementById("role").innerText = luckyString;
+}, 5000);
 
 
 const Front = () => {
@@ -22,7 +34,7 @@ const Front = () => {
                 <div className="front__info">
                     <div className="front__name">FARUQ ISMAEL</div>
                     <div className="front__role">
-                        {iterateRoles()} <FontAwesomeIcon icon={faCode} />
+                        <span id="role">{lucky}</span> <FontAwesomeIcon icon={faCode} />
                     </div>
                 </div>
 
