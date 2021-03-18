@@ -1,3 +1,5 @@
 node_modules
 
 *.png
+# Local Netlify folder
+.netlify
