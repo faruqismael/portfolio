@@ -7,29 +7,14 @@
     ],
     "projects": [
         {
-            "image": "",
+            "image": "https://github.com/High-Tech-MITC/covid19-tracker/raw/master/sample_image.png",
             "title": "covid-19 tracker",
-            "link": "url"
+            "link": "https://github.com/High-Tech-MITC/covid19-tracker"
         },
         {
-            "image": "",
-            "title": "covid-19 tracker",
-            "link": "url"
-        },
-        {
-            "image": "",
+            "image": "https://github.com/High-Tech-MITC/covid19-tracker/raw/master/sample_image.png",
             "title": "covid-19 ",
-            "link": "url"
-        },
-        {
-            "image": "",
-            "title": "covid-19 tracker",
-            "link": "url"
-        },
-        {
-            "image": "",
-            "title": "covid-19 tracker",
-            "link": "url"
+            "link": "https://github.com/High-Tech-MITC/covid19-tracker"
         }
     ],
     "skills": [
