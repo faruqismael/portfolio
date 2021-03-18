@@ -34,3 +34,17 @@
     font-size: 30px;
 }
 
+.about__image img{
+    width: 80%;
+    object-fit: cover;
+}
+
+@media (max-width:640px){
+    .about__image img{
+        border-radius: 50%;
+        margin: 20px;
+    }
+    .about{
+        text-align: center;
+    }
+}

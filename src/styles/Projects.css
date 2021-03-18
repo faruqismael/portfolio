@@ -30,12 +30,6 @@
     }
 }
 
-
-.project__image{
-    height: 400px;
-    object-fit:fill;
-}
-
 .project__title{
     position: relative;
     bottom: 0;
