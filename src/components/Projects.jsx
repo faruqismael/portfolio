@@ -13,11 +13,12 @@ const Projects = () => {
                 {data.projects.map(project => {
                     return (
                         <div className="project__card">
-                            <div className="project__image"></div>
+                            <div className="project__image">
+                                <img src={project.image} width={900} alt="" />
+                            </div>
                             <div className="project__title">
-                                <a href={project.link} className="project__link">
+                                <a href={project.link} target="_blank" rel="noreferrer" className="project__link">
                                     {project.title.toUpperCase()} <FontAwesomeIcon icon={faLink} />
-
                                 </a>
                             </div>
                         </div>
