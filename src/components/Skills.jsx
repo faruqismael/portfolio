@@ -1,7 +1,6 @@
 import React from 'react';
 import '../styles/Skills.css'
 import { data } from '../data'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Skills = () => {
     return (

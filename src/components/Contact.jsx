@@ -1,5 +1,7 @@
 import React from 'react';
 import "../styles/Contact.css"
+
+
 const Contact = () => {
     return (
         <div className="contact">
@@ -14,7 +16,7 @@ const Contact = () => {
                     </form>
                 </div>
                 <div className="contact__map">
-                    <h2>location </h2>
+                    {/* <h2>location </h2> */}
                 </div>
             </div>
         </div>
