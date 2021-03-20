@@ -71,7 +71,7 @@
 }
 
 .contact__submit:hover{
-    color: blue;
+    color: #0000FF;
     background: white;
     cursor: pointer;
     transition: .5s;
