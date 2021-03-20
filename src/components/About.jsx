@@ -33,7 +33,7 @@ const About = () => {
                     </div>
 
                     <div className="about__connect">
-                        <a href="https://facebook.com">
+                        <a href="https://www.facebook.com/profile.php?id=100014434574469">
                             <FontAwesomeIcon icon={faFacebook} />
                         </a>
                         <a href="https://twitter.com/FaruqIsmael5">
