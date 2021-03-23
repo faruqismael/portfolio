@@ -14,7 +14,7 @@ const Projects = () => {
                     return (
                         <div className="project__card">
                             <div className="project__image">
-                                <img src={project.image} width={900} alt="" />
+                                <img className="img" src={project.image} alt="" />
                             </div>
                             <div className="project__title">
                                 <a href={project.link} target="_blank" rel="noreferrer" className="project__link">
