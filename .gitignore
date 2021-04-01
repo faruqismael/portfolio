@@ -1,5 +1,5 @@
 node_modules
-
+./build
 *.png
 # Local Netlify folder
 .netlify
