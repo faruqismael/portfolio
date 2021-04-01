@@ -23,7 +23,7 @@ setInterval(() => {
     let luckyString = '';
     luckyArr.map(arr => luckyString += arr);
     document.getElementById("role").innerText = luckyString;
-}, 5000);
+}, 3000);
 
 
 const Front = () => {
